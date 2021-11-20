@@ -1,0 +1,41 @@
+.product{
+    display: flex;
+    margin: 20px 0;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+.product img{
+    margin: 0 10px;
+}
+
+.product-info{
+    padding:0 10px 0 40px;
+    
+}
+
+.product-info button{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    background-color: #f89801;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* .product-rating{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+} */
+.rateIcon{
+    color: sandybrown;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.count-icon{
+    color: salmon;
+    font-weight: bold;
+}

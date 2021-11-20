@@ -1,0 +1,39 @@
+.header-container{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.header-container img{
+    height: 70px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-title{
+    margin-top: 10px;
+    color: #f89801;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-container nav{
+    margin: 30px 0 0 0;
+    background-color: #f89801;
+    line-height: 60px;
+}
+
+.header-container nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header-container nav a:hover{
+    border-right: 1px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
